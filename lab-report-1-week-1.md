@@ -14,6 +14,14 @@
 ## Step 3
 ![s3](step3.PNG)
 
-* Now that you're in a terminal, type SSH followed by cs15lfa22(your class-specific name)@ieng6.ucsd.edu to make first contact. After prompting for a password, which you should've previously set up for this class-specific account, you should now have access to the remote device.
+* Now that you're in a terminal, type "SSH" followed by "cs15lfa22(your class-specific name)@ieng6.ucsd.edu" to make first contact. After prompting for a password, which you should've previously set up for this class-specific account, you should now have access to the remote device.
 
 ## Step 4
+![s4](step4.PNG)
+
+* There's many commands available, but here's a few being run as an example.
+
+## Step 5
+![s5p1](step51.PNG)
+
+* Now let's test moving a file over. Start by creating a new java file called WhereAmI.java. run "scp WhereAmI.java cs15lfa22(class-specific name)@ieng6.ucsd.edu:~/" in the terminal from the directory where you made the file for it to be copied to the remote machine. If the transfer was successful, you should see 
