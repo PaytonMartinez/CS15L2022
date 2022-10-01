@@ -8,4 +8,4 @@ lab reports below:
 
 [Lab Report 1](lab-report-1-week-1.html)
 
-![Image](medead.jpg)
+![img](medead.JPG)

@@ -1,3 +1,3 @@
 Picture Test:
 
-![Image](medead.jpg)
+![img](medead.JPG)
