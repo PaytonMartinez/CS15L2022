@@ -1,5 +1,3 @@
-There should be a picture below:
+Picture Test:
 
 ![Image](medead.jpg)
-
-![Image2](aiwatapedeck.jpg)
