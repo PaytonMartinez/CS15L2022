@@ -24,4 +24,32 @@
 ## Step 5
 ![s5p1](step51.PNG)
 
-* Now let's test moving a file over. Start by creating a new java file called WhereAmI.java. run "scp WhereAmI.java cs15lfa22(class-specific name)@ieng6.ucsd.edu:~/" in the terminal from the directory where you made the file for it to be copied to the remote machine. If the transfer was successful, you should see 
+* Now let's test moving a file over. Start by creating a new java file called WhereAmI.java. Then, run "scp WhereAmI.java cs15lfa22(class-specific name)@ieng6.ucsd.edu:~/" in the terminal from the directory where you made the file for it to be copied to the remote machine. If the transfer was successful after inputting your password, you should see information on it's progress. Now see if the file transfered by running ls and running the program with:
+
+javac WhereAmI.java
+
+java WhereAmI
+
+* The following should be the result:
+
+![s5p2](step52.PNG)
+
+* The program has successfully copied over and is running on the remote machine, which is why it gives information on itself rather than ourselves, (the client.)
+
+## Step 6
+
+* We can continue to use the terminal like this, but it's slow. To create a key to automatically let our client in without a password, first follow the steps below, replacing "jz" and your file directory with your approximate information:
+
+![s6p1](step61.PNG)
+
+* Now log into the terminal, and create a new directory called .ssh using mkdir. This is what will save what the client generated. (I couldn't get a screenshot to show this action as I had already made the directory before and got a "directory already exists" error.)
+
+* Lastly, run the following command to send the key into the server:
+
+![s6p2](step62.PNG)
+
+* If this process worked correctly, you should now not be prompted for a password when accessing the server, as can be seen in this example:
+
+![s6p3](step63.PNG)
+
+## Step 7
