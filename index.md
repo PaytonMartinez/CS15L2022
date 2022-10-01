@@ -1,3 +1,3 @@
-# This is a Test!
+# CSE15L Blog Page
 
-**This** is only a test.
+[Lab Report 1](lab-report-1-week-0.html)
