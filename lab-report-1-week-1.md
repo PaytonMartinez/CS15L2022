@@ -53,3 +53,11 @@ java WhereAmI
 ![s6p3](step63.PNG)
 
 ## Step 7
+
+* Last but not least, now that we've let our computer more easily communicate without the barriers of a password, we can run mutiple tasks at the same time using quotations. for example:
+
+![s7](step7.PNG)
+
+
+
+That's it! Thanks for looking!
