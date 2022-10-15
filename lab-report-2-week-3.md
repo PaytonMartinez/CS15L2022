@@ -97,3 +97,18 @@ class SearchEngine {
 * If no matches were found and `searchResult` was left empty by the for loop, "No Results Found." is printed.
 
 ## Part 2 - Diagnosing Bugs
+
+
+* Failure inducing input:
+
+![p5](bug2.PNG)
+
+* Symptom:
+
+(Didn't get a screenshot of the original failure message before I fixed the bug, but it was something like: `Array first different at element [0]: expected <1> but was <4>`.)
+
+* Bug:
+
+![p6](bug1.PNG)
+
+* Code is fixed here, but the issue was it wasn't remembering the value that was going to be replaced before it erased it with `num`.
