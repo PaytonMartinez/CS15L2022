@@ -98,8 +98,8 @@ class SearchEngine {
 
 ## Part 2 - Diagnosing Bugs
 
-
-* Failure inducing input:
+Bug 1
+* Failure Inducing Input:
 
 ![p5](bug2.PNG)
 
@@ -112,3 +112,18 @@ class SearchEngine {
 ![p6](bug1.PNG)
 
 * Code is fixed here, but the issue was it wasn't remembering the value that was going to be replaced before it erased it with `num`.
+
+Bug 2
+* Failure Inducing Input:
+
+![p7](bug4.png)
+
+* Symptom:
+
+![p8](bug5.png)
+
+* Bug:
+
+![p9](bug6.png)
+
+* Bug was caused by the highlighted piece of code, as it caused the class to go into an infinite loop of adding nodes, until it inevitably ran out of memory. A fix would be to simply move it outside of the while loop after the bracket.
