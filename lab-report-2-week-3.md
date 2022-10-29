@@ -116,14 +116,14 @@ Bug 1
 Bug 2
 * Failure Inducing Input:
 
-![p7](bug4.png)
+![p7](bug4.PNG)
 
 * Symptom:
 
-![p8](bug5.png)
+![p8](bug5.PNG)
 
 * Bug:
 
-![p9](bug6.png)
+![p9](bug6.PNG)
 
 * Bug was caused by the highlighted piece of code, as it caused the class to go into an infinite loop of adding nodes, until it inevitably ran out of memory. A fix would be to simply move it outside of the while loop after the bracket.
