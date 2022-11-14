@@ -17,13 +17,14 @@ Starting at the command prompt in the same directory as DocSearchServer.java:
 
 ---
 
-- Then to relatively quickly delete the string and replace it with something else, type `dwibase<Space><Escape>`. `dw` deletes the word your cursor is at the start of, and `i` allows you to enter Insert Mode, which lets you then type the variable name we intend to use, `base`. Because `dw` moved us all the way up against an adjacent string, type `<Space>` to make room between words, and `Escape` to return to normal mode.
+- Then to relatively quickly delete the string and replace it with something else, type `dwibase<Escape>`. `dw` deletes the word your cursor is at the start of, (which in our case is `start`,) `i` enters Insert Mode, (which allows us to type in `base`,) and `<Escape>` returns us to Normal Mode. 
+* EXTRA: (In some cases like the one below, `dw` may also remove the space after the word we deleted and leave the cursor right up against the next word. In those scenarios, simply type `<Space>` after typing `base` just to give us some room.)
 
 ![p3](vimp3.PNG)
 
 ---
 
-- After that, pressing `n` in normal mode jumps us to the next detected match from our previous search, allowing us to repeat `dwibase<Space><Escape>` until all occurences of start are gone, which will be confimed by the message that displays on the bottom of the terminal, which reads: `"Pattern not found: start"`
+- After that, pressing `n` in normal mode jumps us to the next detected match from our previous search, allowing us to repeat `dwibase<Escape>` until all occurences of start are gone, which will be confimed by the message that displays on the bottom of the terminal which reads: `"Pattern not found: start"`
 
 ![p4](vimp4.PNG)
 
